@@ -2,8 +2,6 @@
 language:
 - en
 pipeline_tag: text-generation
-studios:
-- LLM-Research/Chat_Llama-3-8B
 tags:
 - facebook
 - meta
