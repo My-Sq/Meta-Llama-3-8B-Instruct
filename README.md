@@ -278,8 +278,9 @@ See the snippet below for usage with Transformers:
 ```python
 import transformers
 import torch
+from modelscope import snapshot_download
 
-model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
+model_id = snapshot_download("LLM-Research/Meta-Llama-3-8B-Instruct")
 
 pipeline = transformers.pipeline(
     "text-generation",
